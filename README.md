@@ -19,3 +19,6 @@ And to know the time it took to complete time's racket function need to be added
 ```
 (time(convertToHtml "Short_Yelp" 4))
 ```
+## Speedup with parallelism
+To measure the speedup using parallelism vs not using it, with the time was measured on as a test with 1, 2 and 4 cores. Then we compared the percentajes on how the excecution time here are the results:
+- 4 cores:
