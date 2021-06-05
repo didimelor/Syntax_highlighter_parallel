@@ -30,7 +30,8 @@ To measure the speedup using parallelism vs not using it, with the time was meas
   - Time 108354 ms. 
   - 71% faster than with 1 core.
 - 1 core. 
-  - Time 186164 ms. 
+  - Time 186164 ms.
+ 
 We can clearly see a faster completion of the program managing the threads used as futures. This can also be explained by the time complexity. 
 Before parallelism, one core had a **O(n * k)** complexity where n is the length of the file and k is the number of files on the folder.
 After parallelism, the time complexity is **O(n * k)** where now k is the number of files in the folder divided by the numer of cores this is a lot faster mostly on large files or a when there are many files.
