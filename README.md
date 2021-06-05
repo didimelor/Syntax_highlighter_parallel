@@ -12,10 +12,10 @@ Int this program we recieve the folder's name and the number of cores avaliable 
 
 ## How to run the program
 In our test case, the folders name is: "Short_Yelp" and the number of cores in my computer is four. So well call it:
-'''
+```
 (convertToHtml "Short_Yelp" 4)
-'''
+```
 And to know the time it took to complete time's racket function need to be added
-'''
-(convertToHtml "Short_Yelp" 4)
-'''
+```
+(time(convertToHtml "Short_Yelp" 4))
+```
